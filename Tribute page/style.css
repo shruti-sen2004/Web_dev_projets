@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 300vh;
+    border: 10px solid #fff;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top_section h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.top_section h4{
+    color: #fff;
+    font-size: 25px;
+    text-align: end;
+}
+
+h2{
+    color: black;
+    background-color: #fff;
+    font-size: 40px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.image_container,img{
+    width: 250px;
+    height: 300px;
+    border-radius: 100px;
+    border: 5px solid white;
+    padding: 3px;
+    background-color: black;
+}
+
+
+.his_quotes h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+
+.his_quotes h2{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    align-items: center;
+}
+
+
+footer p{
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+    font-family: monospace;
+}
